@@ -203,85 +203,85 @@ function memoryGallery(file, fallbackMonth, fallbackColor, captions) {
 const MEMORIES = [
     {
         month: "January",
-        title: "Cubbon Park Days",
-        message: "Cubbon Park wali walks, us talking nonsense for hours, and you still laughing at my worst PJs.",
+        title: "Cubbon Park",
+        message: "For me, my most precious memory from Jan is our Cubbon Park visit, jum hum log gaye the CTR aur tereko Ghee zyada laga, my inner state battling tower research and Blr and how you were my real rock during that time. I remember that I felt that I loved you for the first time in this month - and funnily, you were not even there, at the coldplay concert. That day made me a Pankushku paglu.",
         photo: memoryPhoto("assets/photos/month-01.jpg", "January", "#5f6a8a"),
         photos: memoryGallery("assets/photos/month-01.jpg", "January", "#5f6a8a", ["Cubbon Park morning walk", "Bench-side bakbak sessions", "Best laugh in the park: yours"]),
     },
     {
         month: "February",
         title: "Valentine's Day",
-        message: "That valentine jahan we kept saying 'bas one more photo' and ended up missing time itself.",
+        message: "That valentine jahan tu raat ko aagayi thi, jab humne dono ne sath me lego banaya tha, Khushi ko visit kiya tha Irani me and I gave you a backpack ride. The timelapse of us building that lego, watching Tees Mar Khan and haha first time we got high together ACCHE SE NOT DRY KISS AWKWARD WAY ME.",
         photo: memoryPhoto("assets/photos/month-02.jpg", "February", "#8b5a7c"),
         photos: memoryGallery("assets/photos/month-02.jpg", "February", "#8b5a7c", ["Valentine photo spam mode", "Bas one more picture, promise", "Lost track of time, found more love"]),
     },
     {
         month: "March",
         title: "Boating Adventures",
-        message: "Sunset yacht, wind in your hair, and me pretending I was calm while my heart was doing parkour.",
+        message: "Hamari holi lmao. This is the biggest month, isnt it? for us - first time we said I love you to each other (thanks Amey party) when I proposed to you via paper rings, when you proposed me first like always. Holi, making out in Moti Mahal washroom, just the most 'us' month of all time haha",
         photo: memoryPhoto("assets/photos/month-03.jpg", "March", "#7ca87c"),
         photos: memoryGallery("assets/photos/month-03.jpg", "March", "#7ca87c", ["Sunset yacht adventure", "Wind, water, and your smile", "My heart did parkour that evening"]),
     },
     {
         month: "April",
         title: "Kolkata Calls",
-        message: "Kolkata ke din alag the, but every call with you made Bangalore feel close again.",
+        message: "Iss month tu Kolkata me thi, mujhe akela chodd ke. Hamare roz ke convos jab tu metro se chidd ke jati thi, batati thi ki teri founder kitni bitchy hai, and ofc our boat ride in that lake and gurudwara visit - AND MERA DELHI CAPITALS MANGO JAMUN SZN ",
         photo: memoryPhoto("assets/photos/month-04.jpg", "April", "#c9a0dc"),
         photos: memoryGallery("assets/photos/month-04.jpg", "April", "#c9a0dc", ["Kolkata calls every night", "Distance but same silly jokes", "You made far feel near"]),
     },
     {
         month: "May",
         title: "Still Missing You",
-        message: "May was countdown mode: one more day, one more goodnight, one step closer to you.",
+        message: "May was countdown mode: one more day, one more goodnight, one SECOND closer to you. When you came back and I dragged you to High Street. That longing I had to hug you again, to feel you again. God. I was so sos os soooooo over the fuckiong mooon when I saw your cab enter. Fuck...no more long distance ever ok.",
         photo: memoryPhoto("assets/photos/month-05.jpg", "May", "#6b8cff"),
         photos: memoryGallery("assets/photos/month-05.jpg", "May", "#6b8cff", ["Countdown to meeting again", "One more goodnight, one less day", "Missing you, always choosing you"]),
     },
     {
         month: "June",
         title: "Summer Together",
-        message: "Peak garmi, mango cravings, and us turning ordinary afternoons into core memories.",
+        message: "Kitni garmi hoti thi re, fir bhi hum chippak ke sote the hamesha lol. Making Anushkutella for you, our walks around HSR all the time, that park where me made a duggu friend. Just chill, nice slow month for us",
         photo: memoryPhoto("assets/photos/month-06.jpg", "June", "#ffa07a"),
         photos: memoryGallery("assets/photos/month-06.jpg", "June", "#ffa07a", ["Summer heat, mango treat", "Finally side-by-side afternoons", "Ordinary day, core memory"]),
     },
     {
         month: "July",
         title: "Candlelight Concert",
-        message: "Candlelight concert night: violins, warm glow, and that look you gave me during our song.",
+        message: "Candlelight concerttttttttttt aaaaaaaaaa I planned it so much I really really really wanted to go there with you it was sooi much fun then dancing in biergarten. I love you baby so much so fucking much.",
         photo: memoryPhoto("assets/photos/month-07.jpg", "July", "#20b2aa"),
         photos: memoryGallery("assets/photos/month-07.jpg", "July", "#20b2aa", ["Candlelight concert glow", "Violins + your hand in mine", "Soft music, softer eyes"]),
     },
     {
         month: "August",
         title: "My Birthday Month",
-        message: "Best birthday gift wasn't cake, it was you saying 'aaj ka din sirf tera hai' and meaning it.",
+        message: "Best birthday gift wasn't cake, it was you saying 'mera motichoor ka ladooo' and meaning it. Made me feel more loved than I ever have in my life. IRL sarthak will handle this one better wink ALSO POPPPPPPYYYYYYYYYYYYYYYYYY.",
         photo: memoryPhoto("assets/photos/month-08.jpg", "August", "#f4a460"),
         photos: memoryGallery("assets/photos/month-08.jpg", "August", "#f4a460", ["Birthday month with you", "Cake, chaos, and your grin", "Best gift: 'aaj ka din tera hai'"]),
     },
     {
         month: "September",
         title: "Festive September",
-        message: "Festival lights, loud dhol, and us finding our own rhythm in the crowd like always.",
+        message: "Haha navratri ka kitna dekhte the ISS SAAL karenge. Iss month MAI GHAR AGAYA THA APNI BABY SE DOOR. sadlyf",
         photo: memoryPhoto("assets/photos/month-09.jpg", "September", "#cd853f"),
         photos: memoryGallery("assets/photos/month-09.jpg", "September", "#cd853f", ["Festive lights everywhere", "Dhol beats and matching steps", "Crowd loud, us louder"]),
     },
     {
         month: "October",
         title: "Spooky Season",
-        message: "You said 'horror movie lagao' and then held my arm through every jump scare. Worth it.",
+        message: "Tere sang ek Diwali toh banti hai shawtty",
         photo: memoryPhoto("assets/photos/month-10.jpg", "October", "#8b668b"),
         photos: memoryGallery("assets/photos/month-10.jpg", "October", "#8b668b", ["Spooky movie night", "You grabbed my arm every jump", "I acted brave, badly"]),
     },
     {
         month: "November",
         title: "Your Birthday!",
-        message: "Your birthday felt like a festival to me. Happy birthday, meri favorite human.",
+        message: "Your birthday felt like a festival to me. Sabh logo ko organise, making cards, making sure YOU FELT MORE LOVED THAN EVER WAS AND IS AND WILL BE MY ONLY GOAL",
         photo: memoryPhoto("assets/photos/month-11.jpg", "November", "#b8860b"),
         photos: memoryGallery("assets/photos/month-11.jpg", "November", "#b8860b", ["Happy birthday, Anushku", "You looked unreal that day", "Whole month felt like celebration"]),
     },
     {
         month: "December",
         title: "Holiday Magic",
-        message: "December lights, winter air, and that calm feeling of 'haan, this is home'.",
+        message: "December lights, CHRISTMAS CHRISTMAS winter air, and that calm feeling of 'haan, this is home'.",
         photo: memoryPhoto("assets/photos/month-12.jpg", "December", "#4a6fa5"),
         photos: memoryGallery("assets/photos/month-12.jpg", "December", "#4a6fa5", ["Winter lights and long talks", "Cold air, warm hoodie hugs", "Home feels like you"]),
     },
@@ -378,11 +378,7 @@ const LEVEL_CONFIGS = [
         mechanicConfig: {windDirection:1, windStrength:35},
         collectible: {sprite: "letter-item", label: "Letters"},
         decorations: [{type:"petals", count:4}, {type:"clouds", count:5}],
-        extras: [
-            {type:"sign", text:"Kolkata →", x:400, y:GROUND_Y},
-            {type:"kolkataTram"},
-            {type:"babluPuchka", x:560},
-        ],
+        extras: [{type:"sign", text:"Kolkata →", x:400, y:GROUND_Y}, {type:"kolkataTram"}],
     },
     // 4: May - Still Missing You (Kolkata, first gap)
     {
@@ -399,11 +395,7 @@ const LEVEL_CONFIGS = [
         mechanicConfig: {},
         collectible: {sprite: "letter-item", label: "Letters"},
         decorations: [{type:"butterflies", count:4}, {type:"clouds", count:5}, {type:"petals", count:3}],
-        extras: [
-            {type:"sign", text:"Miss you!", x:150, y:GROUND_Y},
-            {type:"kolkataMonsoon"},
-            {type:"babluPuchka", x:230},
-        ],
+        extras: [{type:"sign", text:"Miss you!", x:150, y:GROUND_Y}, {type:"kolkataMonsoon"}],
     },
     // 5: June - Summer Together (flowery, moving platform)
     {
@@ -456,7 +448,7 @@ const LEVEL_CONFIGS = [
         mechanicConfig: {},
         collectible: {sprite: "cake-item", label: "Cakes"},
         decorations: [{type:"fireflies", count:8}, {type:"petals", count:4}],
-        extras: [{type:"birthdayCap"}, {type:"birthday"}, {type:"poppyCompanion"}],
+        extras: [{type:"birthdayCap"}, {type:"birthday"}],
     },
     // 8: September - Navratri Nights (festive, wind)
     {
@@ -474,7 +466,7 @@ const LEVEL_CONFIGS = [
         mechanicConfig: {windDirection:-1, windStrength:30, gustStrength:14, gustSpeed:1.9},
         collectible: {sprite: "diya-item", label: "Diyas"},
         decorations: [{type:"fireflies", count:8}, {type:"petals", count:5}],
-        extras: [{type:"navratri"}, {type:"festivalCrowd"}, {type:"poppyCompanion"}],
+        extras: [{type:"navratri"}, {type:"festivalCrowd"}],
     },
     // 9: October - Spooky Season (vertical climb, jack-o-lanterns, bats)
     {
@@ -494,7 +486,7 @@ const LEVEL_CONFIGS = [
         mechanicConfig: {},
         collectible: {sprite: "pumpkin-item", label: "Pumpkins"},
         decorations: [{type:"leaves", count:8}, {type:"fireflies", count:3}],
-        extras: [{type:"bats", count:7}, {type:"spooky"}, {type:"poppyCompanion"}],
+        extras: [{type:"bats", count:7}, {type:"spooky"}],
     },
     // 10: November - Her Birthday! (cakes, vertical mover)
     {
@@ -512,7 +504,7 @@ const LEVEL_CONFIGS = [
         mechanicConfig: {},
         collectible: {sprite: "cake-item", label: "Cakes"},
         decorations: [{type:"flowers", count:6}, {type:"petals", count:7}, {type:"fireflies", count:5}],
-        extras: [{type:"birthday"}, {type:"birthdayBanner"}, {type:"poppyCompanion"}],
+        extras: [{type:"birthday"}, {type:"birthdayBanner"}],
     },
     // 11: December - Holiday Magic (christmas trees, ice + mover)
     {
@@ -531,7 +523,7 @@ const LEVEL_CONFIGS = [
         mechanicConfig: {friction: 0.97},
         collectible: {sprite: "xmas-tree-item", label: "Trees"},
         decorations: [{type:"snowflakes", count:14}, {type:"fireflies", count:3}],
-        extras: [{type:"christmas"}, {type:"christmasTown"}, {type:"poppyCompanion"}],
+        extras: [{type:"christmas"}, {type:"christmasTown"}],
     },
 ];
 
@@ -826,7 +818,7 @@ const CHARACTER_VARIANTS = [
     { id: "tanushku", label: "Tanushku", dress: "#ff9f5c", shoe: "#ff9f5c", ribbon: "#ff9f5c" },
 ];
 
-const SARTHU_DIALOG_LINES = ["help me", "miss you"];
+const SARTHU_DIALOG_LINES = ["help me", "miss you", "my anushku find me", "save me from kanushku", "maine kisi ka kya bigada hai"];
 
 // ============================================
 // LOAD SPRITES
@@ -910,31 +902,6 @@ loadSprite("kanushku", "data:image/svg+xml," + encodeURIComponent(`
   <ellipse cx="29.5" cy="66" rx="4" ry="2.5" fill="#201829"/>
   <circle cx="40" cy="14" r="3" fill="#ff5b8f"/>
   <path d="M38 10 Q42 6 46 10" stroke="#ff5b8f" stroke-width="1.6" fill="none" stroke-linecap="round"/>
-</svg>
-`));
-
-loadSprite("poppy-cat", "data:image/svg+xml," + encodeURIComponent(`
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 34" width="44" height="34">
-  <defs>
-    <linearGradient id="pcat" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#f6cc8a"/>
-      <stop offset="100%" stop-color="#e2a661"/>
-    </linearGradient>
-  </defs>
-  <ellipse cx="18" cy="20" rx="12" ry="8.5" fill="url(#pcat)"/>
-  <ellipse cx="29" cy="16" rx="8" ry="7" fill="url(#pcat)"/>
-  <polygon points="23,11 26,4 29,11" fill="#d8924d"/>
-  <polygon points="29,10 33,3 35,11" fill="#d8924d"/>
-  <ellipse cx="27" cy="17" rx="1.4" ry="1.6" fill="#40280f"/>
-  <ellipse cx="32" cy="17" rx="1.4" ry="1.6" fill="#40280f"/>
-  <circle cx="27.4" cy="16.5" r="0.45" fill="#fff"/>
-  <circle cx="32.4" cy="16.5" r="0.45" fill="#fff"/>
-  <path d="M28 21 Q29.5 22.3 31 21" stroke="#8e4f2f" stroke-width="1.1" fill="none" stroke-linecap="round"/>
-  <path d="M35 18 Q40 15 41 20 Q39 23 34 22" fill="none" stroke="#d8924d" stroke-width="2.1" stroke-linecap="round"/>
-  <ellipse cx="11" cy="27" rx="3.2" ry="2.2" fill="#c7864a"/>
-  <ellipse cx="19" cy="27" rx="3.2" ry="2.2" fill="#c7864a"/>
-  <ellipse cx="25" cy="26.6" rx="3.1" ry="2.1" fill="#c7864a"/>
-  <ellipse cx="31" cy="26.4" rx="2.9" ry="2.0" fill="#c7864a"/>
 </svg>
 `));
 
@@ -2240,12 +2207,9 @@ function getGroundTileSprite(monthIndex, groundStyle) {
 
 function drawMarioGround(segX, segW, groundStyle, monthIndex) {
     // Physics collider stays invisible; visuals come from sprite tiles.
-    // Small overlap + explicit top-left anchor prevents seam fall-through at segment edges.
-    const seamPad = sx(2);
     add([
-        rect(segW + seamPad * 2, sy(106)),
-        pos(segX - seamPad, GROUND_Y - sy(2)),
-        anchor("topleft"),
+        rect(segW, sy(100)),
+        pos(segX, GROUND_Y),
         color(0, 0, 0),
         opacity(0),
         area(),
@@ -2270,49 +2234,6 @@ function drawMarioGround(segX, segW, groundStyle, monthIndex) {
                 z(1),
             ]);
         }
-    }
-}
-
-function drawGroundGapIndicators(segments, monthIndex) {
-    if (!segments || segments.length < 2) return;
-
-    const sorted = [...segments].sort((a, b) => a.x - b.x);
-    const isWaterMonth = monthIndex === 2;
-    const isWinterMonth = monthIndex === 11;
-
-    for (let i = 0; i < sorted.length - 1; i++) {
-        const left = sorted[i];
-        const right = sorted[i + 1];
-        const gapStart = left.x + left.w;
-        const gapEnd = right.x;
-        const gapW = gapEnd - gapStart;
-        if (gapW < sx(18)) continue;
-
-        add([
-            rect(gapW, sy(106)),
-            pos(gapStart, GROUND_Y),
-            anchor("topleft"),
-            color(
-                isWaterMonth ? 44 : (isWinterMonth ? 68 : 32),
-                isWaterMonth ? 82 : (isWinterMonth ? 86 : 26),
-                isWaterMonth ? 112 : (isWinterMonth ? 102 : 34),
-            ),
-            opacity(isWaterMonth ? 0.55 : 0.62),
-            z(2),
-        ]);
-
-        add([
-            rect(gapW, sy(10)),
-            pos(gapStart, GROUND_Y),
-            anchor("topleft"),
-            color(
-                isWaterMonth ? 86 : (isWinterMonth ? 132 : 72),
-                isWaterMonth ? 146 : (isWinterMonth ? 154 : 52),
-                isWaterMonth ? 182 : (isWinterMonth ? 186 : 64),
-            ),
-            opacity(0.52),
-            z(3),
-        ]);
     }
 }
 
@@ -2678,7 +2599,7 @@ function spawnBirdsAndSun(monthIndex) {
 // ============================================
 // MONTH-SPECIFIC EXTRAS
 // ============================================
-function spawnExtras(config, boyfriendObj, playerObj) {
+function spawnExtras(config, boyfriendObj) {
     if (!config.extras) return;
 
     config.extras.forEach(extra => {
@@ -2925,44 +2846,6 @@ function spawnExtras(config, boyfriendObj, playerObj) {
                 }
                 break;
             }
-            case "babluPuchka": {
-                const stallX = typeof extra.x === "number" ? extra.x : Math.round(width() * 0.34);
-                const stallY = GROUND_Y - sy(6);
-
-                add([
-                    rect(90, 52, { radius: 8 }),
-                    pos(stallX, stallY),
-                    anchor("bot"),
-                    color(130, 86, 52),
-                    outline(2, rgb(94, 60, 36)),
-                    z(2),
-                ]);
-                add([
-                    rect(96, 12, { radius: 6 }),
-                    pos(stallX - 3, stallY - 52),
-                    anchor("bot"),
-                    color(214, 146, 88),
-                    outline(1, rgb(118, 74, 42)),
-                    z(3),
-                ]);
-                add([
-                    text("Bablu Puchka", { size: 12 }),
-                    pos(stallX + 42, stallY - 66),
-                    anchor("center"),
-                    color(255, 241, 211),
-                    z(4),
-                ]);
-                for (let i = 0; i < 5; i++) {
-                    add([
-                        circle(3.2),
-                        pos(stallX + 14 + i * 13, stallY - 34),
-                        color(240, 196, 126),
-                        opacity(0.88),
-                        z(4),
-                    ]);
-                }
-                break;
-            }
             case "summerMango": {
                 for (let i = 0; i < 9; i++) {
                     add([
@@ -3096,41 +2979,6 @@ function spawnExtras(config, boyfriendObj, playerObj) {
                     anchor("center"),
                     z(-2),
                 ]);
-                break;
-            }
-            case "poppyCompanion": {
-                if (!playerObj) break;
-
-                const poppy = add([
-                    sprite("poppy-cat"),
-                    pos(playerObj.pos.x - sx(44), playerObj.pos.y - sy(4)),
-                    anchor("bot"),
-                    scale(0.8),
-                    z(19),
-                    { phase: rand(0, 6) },
-                ]);
-                const poppyName = add([
-                    text("Poppy", { size: 12 }),
-                    pos(poppy.pos.x, poppy.pos.y - sy(28)),
-                    anchor("center"),
-                    color(255, 229, 196),
-                    opacity(0.9),
-                    z(20),
-                ]);
-
-                poppy.onUpdate(() => {
-                    const targetOffset = playerObj.flipX ? sx(38) : -sx(38);
-                    const targetX = playerObj.pos.x + targetOffset;
-                    const targetY = Math.min(playerObj.pos.y - sy(4), GROUND_Y - sy(4));
-
-                    poppy.pos.x = lerp(poppy.pos.x, targetX, 0.11);
-                    poppy.pos.y = lerp(poppy.pos.y, targetY + Math.sin(time() * 5 + poppy.phase) * sy(1), 0.22);
-                    poppy.flipX = !playerObj.flipX;
-
-                    poppyName.pos.x = poppy.pos.x;
-                    poppyName.pos.y = poppy.pos.y - sy(28);
-                    poppyName.opacity = 0.72 + Math.sin(time() * 3 + poppy.phase) * 0.18;
-                });
                 break;
             }
         }
@@ -3891,7 +3739,6 @@ scene("month", (monthIndex) => {
     config.ground.segments.forEach(seg => {
         drawMarioGround(seg.x, seg.w, groundStyle, monthIndex);
     });
-    drawGroundGapIndicators(config.ground.segments, monthIndex);
 
     // Mario-style background layers (Section 3: hills, clouds/stars)
     drawBackgroundLayers(sc, monthIndex);
@@ -5738,7 +5585,7 @@ scene("month", (monthIndex) => {
     spawnDecorations(monthIndex);
 
     // Month-specific extras (signs, bats, birthday cap, etc.)
-    spawnExtras(config, bf, player);
+    spawnExtras(config, bf);
 
     // Birds and sun (global)
     spawnBirdsAndSun(monthIndex);
@@ -6547,7 +6394,7 @@ function showMemory(monthIndex) {
     const popup = document.getElementById("memory-popup");
     const monthText = document.getElementById("memory-month");
     const typedText = document.getElementById("memory-typed-text");
-    const fullMessage = memory.popupMessage || `${memory.title}\n\n${memory.message}`;
+    const fullMessage = memory.popupMessage || memory.message || "";
 
     if (memoryTypewriterTimer) {
         clearInterval(memoryTypewriterTimer);
