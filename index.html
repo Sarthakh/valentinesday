@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarthu Parthu Rescue Adventure! 💕</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="build-sequence" aria-live="polite">
+        <section id="build-canvas" aria-label="Story canvas">
+            <div id="canvas-color-layer"></div>
+            <div id="intro-fx" aria-hidden="true"></div>
+            <div id="legacy-heading"></div>
+            <div id="legacy-heart-wrap">
+                <div id="legacy-echo"></div>
+                <div id="legacy-heart"><span id="legacy-heart-text">Anushka</span></div>
+            </div>
+            <div id="legacy-message"></div>
+            <h1 id="canvas-title"></h1>
+            <p id="canvas-subtitle"></p>
+            <button id="build-begin" disabled>Begin Our Story</button>
+            <div id="intro-music-player">
+                <div id="intro-track">our-theme.lofi</div>
+                <div class="music-controls">
+                    <button id="intro-music-toggle">Play ♫</button>
+                    <input id="intro-music-volume" type="range" min="0" max="100" value="60" />
+                </div>
+            </div>
+            <div id="build-seq-controls">
+                <button id="build-seq-skip" class="build-seq-btn skip">Skip 💔</button>
+                <button id="build-seq-replay" class="build-seq-btn replay">Replay 🐥</button>
+            </div>
+        </section>
+        <div id="build-editor-shell" aria-hidden="true">
+            <div class="build-editor-header">
+                <span class="build-dot red"></span>
+                <span class="build-dot yellow"></span>
+                <span class="build-dot green"></span>
+                <span class="build-editor-title">💝 Anushka.css</span>
+            </div>
+            <div class="build-editor-body">
+                <pre id="build-editor-code"></pre>
+            </div>
+        </div>
+    </div>
+
+    <div id="ambient-dev-console" aria-hidden="true">
+        <div class="ambient-header">💝 Anushka.css</div>
+        <pre class="ambient-panel" id="ambient-code"></pre>
+    </div>
+
+    <button id="bgm-toggle" aria-label="Toggle Music">Music: ON ♫</button>
+
+    <div id="game-container">
+        <canvas id="game" tabindex="0"></canvas>
+        <div id="intro-overlay" class="hidden">
+            <div id="intro-shell">
+                <pre id="intro-code"></pre>
+                <div id="intro-stage">
+                    <h1>for Anushka</h1>
+                    <p>This year, the code becomes our game.</p>
+                    <button id="intro-start">Run Story()</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Photo popup overlay -->
+    <div id="memory-popup" class="hidden">
+        <div id="memory-panel">
+            <h2 id="memory-heading">Memories</h2>
+            <p id="memory-month"></p>
+            <p id="memory-typed-text"></p>
+            <button id="close-memory">Continue Journey →</button>
+        </div>
+    </div>
+
+    <!-- Love Letter Finale Overlay -->
+    <div id="love-letter-overlay" class="hidden">
+        <div class="code-editor">
+            <div class="editor-header">
+                <div class="editor-dot red"></div>
+                <div class="editor-dot yellow"></div>
+                <div class="editor-dot green"></div>
+                <span class="editor-title">love-letter.css</span>
+            </div>
+            <div class="editor-body" id="letter-content">
+                <!-- Typed content appears here -->
+            </div>
+            <div class="letter-buttons">
+                <button class="letter-btn skip" id="skip-letter">Skip</button>
+                <button class="letter-btn replay" id="replay-game">Replay ♥</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Kaboom.js CDN - using stable v2 -->
+    <script src="https://unpkg.com/kaboom@3000.1.17/dist/kaboom.js"></script>
+    <script src="live-editor.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>

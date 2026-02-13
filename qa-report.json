@@ -1,0 +1,214 @@
+{
+  "startMethod": "build-sequence",
+  "bootState": {
+    "gameMode": true,
+    "buildHidden": true,
+    "canvasWidth": 1280,
+    "canvasHeight": 720
+  },
+  "debugState": {
+    "hasDebugLabel": true
+  },
+  "monthReports": [
+    {
+      "month": 1,
+      "playerCount": 1,
+      "portalCount": 1,
+      "collectibleCount": 5,
+      "hazardCount": 4,
+      "checkpointCount": 0,
+      "missionTargets": 2,
+      "collisionProbe": {
+        "tested": true,
+        "landed": true,
+        "playerY": 499,
+        "platformTop": 499
+      },
+      "issues": []
+    },
+    {
+      "month": 2,
+      "playerCount": 1,
+      "portalCount": 1,
+      "collectibleCount": 5,
+      "hazardCount": 3,
+      "checkpointCount": 0,
+      "missionTargets": 0,
+      "collisionProbe": {
+        "tested": true,
+        "landed": true,
+        "playerY": 487,
+        "platformTop": 487
+      },
+      "issues": []
+    },
+    {
+      "month": 3,
+      "playerCount": 1,
+      "portalCount": 1,
+      "collectibleCount": 5,
+      "hazardCount": 3,
+      "checkpointCount": 1,
+      "missionTargets": 3,
+      "collisionProbe": {
+        "tested": true,
+        "landed": true,
+        "playerY": 487,
+        "platformTop": 487
+      },
+      "issues": []
+    },
+    {
+      "month": 4,
+      "playerCount": 1,
+      "portalCount": 1,
+      "collectibleCount": 5,
+      "hazardCount": 3,
+      "checkpointCount": 1,
+      "missionTargets": 3,
+      "collisionProbe": {
+        "tested": true,
+        "landed": true,
+        "playerY": 487,
+        "platformTop": 487
+      },
+      "issues": []
+    },
+    {
+      "month": 5,
+      "playerCount": 1,
+      "portalCount": 1,
+      "collectibleCount": 5,
+      "hazardCount": 4,
+      "checkpointCount": 1,
+      "missionTargets": 0,
+      "collisionProbe": {
+        "tested": true,
+        "landed": true,
+        "playerY": 403,
+        "platformTop": 499
+      },
+      "issues": []
+    },
+    {
+      "month": 6,
+      "playerCount": 1,
+      "portalCount": 1,
+      "collectibleCount": 5,
+      "hazardCount": 3,
+      "checkpointCount": 1,
+      "missionTargets": 0,
+      "collisionProbe": {
+        "tested": true,
+        "landed": true,
+        "playerY": 523,
+        "platformTop": 523
+      },
+      "issues": []
+    },
+    {
+      "month": 7,
+      "playerCount": 1,
+      "portalCount": 1,
+      "collectibleCount": 5,
+      "hazardCount": 5,
+      "checkpointCount": 1,
+      "missionTargets": 4,
+      "collisionProbe": {
+        "tested": true,
+        "landed": true,
+        "playerY": 398,
+        "platformTop": 499
+      },
+      "issues": []
+    },
+    {
+      "month": 8,
+      "playerCount": 1,
+      "portalCount": 1,
+      "collectibleCount": 5,
+      "hazardCount": 5,
+      "checkpointCount": 1,
+      "missionTargets": 4,
+      "collisionProbe": {
+        "tested": true,
+        "landed": true,
+        "playerY": 535,
+        "platformTop": 535
+      },
+      "issues": []
+    },
+    {
+      "month": 9,
+      "playerCount": 1,
+      "portalCount": 1,
+      "collectibleCount": 5,
+      "hazardCount": 5,
+      "checkpointCount": 1,
+      "missionTargets": 4,
+      "collisionProbe": {
+        "tested": true,
+        "landed": true,
+        "playerY": 393,
+        "platformTop": 499
+      },
+      "issues": []
+    },
+    {
+      "month": 10,
+      "playerCount": 1,
+      "portalCount": 1,
+      "collectibleCount": 5,
+      "hazardCount": 4,
+      "checkpointCount": 2,
+      "missionTargets": 3,
+      "collisionProbe": {
+        "tested": true,
+        "landed": true,
+        "playerY": 379,
+        "platformTop": 499
+      },
+      "issues": []
+    },
+    {
+      "month": 11,
+      "playerCount": 1,
+      "portalCount": 1,
+      "collectibleCount": 5,
+      "hazardCount": 4,
+      "checkpointCount": 1,
+      "missionTargets": 0,
+      "collisionProbe": {
+        "tested": true,
+        "landed": true,
+        "playerY": 499,
+        "platformTop": 499
+      },
+      "issues": []
+    },
+    {
+      "month": 12,
+      "playerCount": 1,
+      "portalCount": 1,
+      "collectibleCount": 5,
+      "hazardCount": 6,
+      "checkpointCount": 2,
+      "missionTargets": 0,
+      "collisionProbe": {
+        "tested": true,
+        "landed": true,
+        "playerY": 499,
+        "platformTop": 499
+      },
+      "issues": []
+    }
+  ],
+  "monthIssues": [],
+  "errors": [],
+  "actionableErrors": [],
+  "ambient": {
+    "runtimeLen": 1871,
+    "runtimeTail": "ck 36\nplayer.damage(\"fall\", hp:3);\nloadMonth(12, \"December\");\nrenderFrame(); // tick 37\nrenderFrame(); // tick 38\nloadMonth(3, \"March\");\nplayer.damage(\"fall\", hp:4);\nruntime.emit(\"debug.toggle\");\nmission.complete(\"Synthetic Mission\");\nportal.open(); // QA\nchec"
+  },
+  "pass": true
+}
